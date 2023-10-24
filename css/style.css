@@ -1,0 +1,156 @@
+header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.banner h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the photo section */
+.photo-section {
+
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.large-photo {
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.large-photo img {
+
+  width: 100%;
+  height: auto;
+}
+
+/* Styling for the articles */
+.articles {
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 16px;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+
+article {
+  padding: 16px;
+  background-color: #ffffff;
+  flex-basis: calc(50% - 50px);
+  margin-bottom: 16px;
+}
+.Home-page img {
+  
+  width: 30%;
+  display: block;
+  margin: auto;
+  margin-right: 1em;
+  
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 30px;
+  height: auto;
+}
+
+.social-media-icons a {
+  margin-left: 10px;
+  color: white;
+}
+button {
+  background-color: #000000;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+ }
+ 
+ button:hover {
+  background-color: #000000;
+ }
+ 
+ .photo-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.small-photo {
+  width: 50%;
+}
+
+.movie-nights1{
+  display: block;
+  width: 90%;
+  position: relative;
+  
+}
+.movie-nights2 {
+  display: block;
+  width: 85%;
+  position: relative;
+}
+
+.movie-nights3{
+  display: flex;
+  width: 200px;
+  height: 200px;
+  position: relative;
+
+
+}
+.program{
+  display: flex;
+  flex-direction: row;
+  
+  margin: 10px;
+}
+
+
