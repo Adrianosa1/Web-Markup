@@ -10,22 +10,49 @@
 <body>
     <header>
       <section class="logo">
-        <img class = "LOGO" src="./img/LOGO.png">
-      </section>
+       <img class = "LOGO" src="./img/LOGO.png" alt="logo">
+      </section> 
         <nav>
-            <ul>
-              <button onclick="window.location.href='index.html'">Movie & Snacks </button>
-              <button onclick="window.location.href='movie-nights.html'">Movie Nights</button>
-              <button onclick="window.location.href='delicious-snacks.html'">Delicious Snacks</button>
-              <button onclick="window.location.href='community.html'">Community</button>
-              <button onclick="window.location.href='places.html'">Places</button>
-              <button onclick="window.location.href='contact.html'">Contact us</button>
-            </ul>
+            
+          <ul>
+            <li class="movie and snacks"><a href="./index.html">Movie & Snacks</a></li>
+            <li><a href="movie-nights.html"></a><a href="movie-nights.html">Movie Nights</a></li>
+           <li><a href="delicious-snacks.html"></a><a href="delicious-snacks.html">Delicious Snacks</a></li>
+           <li><a href="community.html"></a><a href="community.html">Community</a></li>
+           <li><a href="places.html"></a><a href="places.html">Places</a></li>
+           <li><a href="contact.html"></a><a href="contact.html">Contact us</a></li>
+        </ul>
         </nav> 
     </header>
+      <section class="contact-form">
+        <h1 class="contact">CONTACT US</h1>
+      <form action="https://coolinhollanddemo.azurewebsites.net/" method="post">
+        <label for="name">First name:</label>
+        <input type="text" id="name" placeholder="first name" required>
+
+        <label for="name2">Last name:</label>
+        <input type="text" id="name2" placeholder="last name" required>
+
+        <label for="email">email:</label>
+        <input type="text" id="email" placeholder="your email" required>
+        
+        <label>Message:<textarea rows="4" cols="50" placeholder="message"
+        form="form"></textarea></label>
+        <button type="submit">Submit</button>
+        <!--<section class="contact-form">
+          <h1>Contact Us</h1>
+          <input type="text" name="name" placeholder="Your Name">
+          <input type="email" name="email" placeholder="Your Email">
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <button type="submit">Submit</button>
+        </section>-->
+  
+
+      </form>
+     </section>
     <footer>
         <section class="footer-logo">
-          <img class = "LOGO" src="./img/LOGO.png">
+          <img class = "LOGO" src="./img/LOGO.png" alt="logo">
         </section>
         <section class="footer-text">
             <p>&copy; 2023 Movie & Snacks.</p>
