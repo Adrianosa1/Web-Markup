@@ -267,6 +267,7 @@ button {
 }
 .cookies{
   display: block;
+  width: 20%;
   border-width: 20%;
   border-color: aqua;
   border-style: solid;
