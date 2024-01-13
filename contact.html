@@ -10,31 +10,34 @@
 <body>
     <header>
       <section class="logo">
-       <img class = "LOGO" src="./img/LOGO.png" alt="logo">
+       <img class = "LOGO" src="./img/LOGO.png" alt="logo" title="LOGO">
       </section> 
         <nav>
             
           <ul>
             <li class="movie and snacks"><a href="./index.html">Movie & Snacks</a></li>
-            <li><a href="movie-nights.html"></a><a href="movie-nights.html">Movie Nights</a></li>
-           <li><a href="delicious-snacks.html"></a><a href="delicious-snacks.html">Delicious Snacks</a></li>
-           <li><a href="community.html"></a><a href="community.html">Community</a></li>
-           <li><a href="places.html"></a><a href="places.html">Places</a></li>
-           <li><a href="contact.html"></a><a href="contact.html">Contact us</a></li>
+              <li><a href="movie-nights.html" id="myLink">Movie Nights</a><a href="movie-nights.html"></a></li>
+             <li><a href="delicious-snacks.html" id="myLink">Delicious Snacks</a><a href="delicious-snacks.html"></a></li>
+             <li><a href="community.html" id="myLink">Community</a><a href="community.html"></a></li>
+             <li><a href="places.html" id="myLink">Places</a><a href="places.html"></a></li>
+             <li><a href="contact.html" id="myLink">Contact us</a><a href="contact.html"></a></li>
         </ul>
         </nav> 
     </header>
       <section class="contact-form">
         <h1 class="contact">CONTACT US</h1>
+       
       <form action="https://coolinhollanddemo.azurewebsites.net/" method="post">
+        <legend>Personal Information</legend>
         <label for="name">First name:</label>
         <input type="text" id="name" placeholder="first name" required>
                 <p></p>
         <label for="name2">Last name:</label>
         <input type="text" id="name2" placeholder="last name" required>
         <p></p>
+       
         <label for="email">email:</label>
-        <input type="text" id="email" placeholder="your email" required>
+        <input type="email" id="email" name="your email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
         <p></p>
         <label>Message:<textarea rows="4" cols="50" placeholder="message"></textarea></label>
         <button type="submit">Submit</button>
@@ -42,7 +45,7 @@
      </section>
     <footer>
         <section class="footer-logo">
-          <img class = "LOGO" src="./img/LOGO.png" alt="logo">
+          <img class = "LOGO" src="./img/LOGO.png" alt="logo" title="LOGO">
         </section>
         <section class="footer-text">
             <p>&copy; 2023 Movie & Snacks.</p>
