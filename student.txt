@@ -1,5 +1,5 @@
 Student name: Adriano Saliasi
 Student number: 710173
 Student class: IT1A
-GitHub Repository: https://github.com/Adrianosa1/final-folder.git
-GitHub Pages URL:  https://adrianosa1.github.io/final-folder/
+GitHub Repository:  https://adrianosa1.github.io/final-folder/ 
+GitHub Pages URL: https://adrianosa1.github.io/Web-Markup/
