@@ -286,7 +286,7 @@ button {
   background-color: #ffffff;
   color: #000000;
  }
- @media screen and (max-width: 800px) {
+ @media screen and (max-width: 768px) {
   
   header {
     background-color: #000000;
